@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSF ART LTD | Original art, made in London</title>
+  <meta name="description" content="OSF ART LTD is an independent art company in London, incorporated in 2022, creating original contemporary work: one-of-one pieces, series and editions.">
+  <link rel="canonical" href="https://osfartltd.shop/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0B0B10">
+  <meta name="author" content="OSF ART LTD">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OSF ART LTD">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:title" content="OSF ART LTD | Original art, made in London">
+  <meta property="og:description" content="An independent London art company creating original contemporary work: one-of-one pieces, series and editions.">
+  <meta property="og:url" content="https://osfartltd.shop/">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OSF ART LTD | Original art, made in London">
+  <meta name="twitter:description" content="An independent London art company creating original contemporary work: one-of-one pieces, series and editions.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            neon: { DEFAULT: '#FF2D55', deep: '#D10F3A' },
+            glow: '#00E5FF',
+            ink: { DEFAULT: '#0B0B10', soft: '#14141C', line: '#24242F' },
+            paper: '#F5F3EE',
+            mute: { DEFAULT: '#8A8A99', dark: '#55555F' }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace']
+          },
+          maxWidth: { site: '76rem' }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "OSF ART LTD",
+    "legalName": "OSF ART LTD",
+    "url": "https://osfartltd.shop/",
+    "description": "Independent art company in London creating original contemporary work: one-of-one pieces, series and editions.",
+    "foundingDate": "2022-05-10",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Companies House company number",
+      "value": "14096891"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Old Bond Street",
+      "addressLocality": "London",
+      "postalCode": "W1S 4PW",
+      "addressCountry": "GB"
+    }
+  }
+  </script>
+</head>
+<body class="bg-ink text-paper font-body antialiased">
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-ink/90 backdrop-blur supports-[backdrop-filter]:bg-ink/75">
+    <nav class="mx-auto flex max-w-site items-center justify-between px-5 py-3 sm:px-8" aria-label="Main">
+      <a href="#top" class="group flex items-center gap-3 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-glow focus-visible:ring-offset-2 focus-visible:ring-offset-ink">
+        <svg class="h-9 w-9 shrink-0" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <rect width="40" height="40" rx="10" fill="#14141C"/>
+          <rect x="0.75" y="0.75" width="38.5" height="38.5" rx="9.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+          <circle cx="17" cy="18" r="8.5" fill="none" stroke="#FF2D55" stroke-width="4"/>
+          <rect x="25" y="25" width="7" height="7" rx="1.5" fill="#00E5FF"/>
+        </svg>
+        <span class="font-display text-lg font-semibold tracking-tight">OSF ART <span class="text-mute">LTD</span></span>
+      </a>
+
+      <ul class="hidden items-center gap-1 md:flex">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">What we do</a></li>
+        <li><a href="#facts" class="nav-link">Key facts</a></li>
+        <li><a href="#contact" class="ml-2 inline-flex items-center rounded-full bg-neon px-5 py-2 text-sm font-semibold text-ink transition hover:bg-paper focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-glow focus-visible:ring-offset-2 focus-visible:ring-offset-ink">Contact us</a></li>
+      </ul>
+
+      <button id="menu-toggle" type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-white/15 text-paper md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-glow" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+        <svg class="icon-open h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close hidden h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden border-t border-white/10 md:hidden">
+      <ul class="mx-auto flex max-w-site flex-col gap-1 px-5 py-4 sm:px-8">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#services" class="mobile-link">What we do</a></li>
+        <li><a href="#facts" class="mobile-link">Key facts</a></li>
+        <li><a href="#contact" class="mobile-link text-neon">Contact us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- Hero -->
+    <section id="top" class="relative overflow-hidden">
+      <div class="hero-glow pointer-events-none absolute inset-0" aria-hidden="true"></div>
+      <div class="relative mx-auto grid max-w-site items-center gap-12 px-5 pb-20 pt-14 sm:px-8 md:pt-20 lg:grid-cols-12 lg:gap-10 lg:pb-28 lg:pt-24">
+        <div class="lg:col-span-7">
+          <p class="font-mono text-xs uppercase tracking-[0.2em] text-glow">London &middot; Est. 2022</p>
+          <h1 class="mt-5 font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
+            Original art,<br><span class="text-neon">made in London.</span>
+          </h1>
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-paper/80">
+            OSF ART LTD is an independent art company creating original contemporary work, from single one-of-one pieces to series and editions that grow over time.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a href="#contact" class="btn-primary">
+              Contact us
+              <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+            </a>
+            <a href="#services" class="btn-ghost">What we do</a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="relative mx-auto max-w-sm lg:max-w-none">
+            <svg class="h-auto w-full drop-shadow-[0_30px_60px_rgba(255,45,85,0.18)]" viewBox="0 0 480 560" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#1A1A24"/>
+                  <stop offset="1" stop-color="#0B0B10"/>
+                </linearGradient>
+                <radialGradient id="hero-halo" cx="0.5" cy="0.5" r="0.5">
+                  <stop offset="0" stop-color="#FF2D55" stop-opacity="0.5"/>
+                  <stop offset="1" stop-color="#FF2D55" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="hero-sun" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#FF2D55"/>
+                  <stop offset="1" stop-color="#D10F3A"/>
+                </linearGradient>
+                <pattern id="hero-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                  <path d="M32 0H0V32" fill="none" stroke="#00E5FF" stroke-opacity="0.10" stroke-width="1"/>
+                </pattern>
+                <clipPath id="hero-clip"><rect width="480" height="560" rx="28"/></clipPath>
+                <clipPath id="sun-clip"><rect x="0" y="0" width="480" height="262"/></clipPath>
+              </defs>
+              <g clip-path="url(#hero-clip)">
+                <rect width="480" height="560" fill="url(#hero-bg)"/>
+                <rect width="480" height="560" fill="url(#hero-grid)"/>
+                <circle cx="290" cy="230" r="210" fill="url(#hero-halo)"/>
+                <g clip-path="url(#sun-clip)">
+                  <circle cx="290" cy="230" r="118" fill="url(#hero-sun)"/>
+                </g>
+                <circle cx="290" cy="230" r="146" fill="none" stroke="#FF2D55" stroke-opacity="0.45" stroke-width="2"/>
+                <path d="M0 262H480" stroke="#F5F3EE" stroke-opacity="0.55" stroke-width="2"/>
+                <path d="M0 290H480M0 322H480M0 362H480M0 412H480M0 474H480" stroke="#00E5FF" stroke-opacity="0.35" stroke-width="1.5"/>
+                <path d="M290 262L40 560M290 262L170 560M290 262L300 560M290 262L430 560M290 262L560 560" stroke="#00E5FF" stroke-opacity="0.22" stroke-width="1.5"/>
+                <rect x="48" y="72" width="132" height="164" fill="none" stroke="#00E5FF" stroke-width="3"/>
+                <rect x="64" y="88" width="132" height="164" fill="#00E5FF" fill-opacity="0.07"/>
+                <circle cx="88" cy="128" r="9" fill="#00E5FF"/>
+                <path d="M392 64l14 14M406 64l-14 14" stroke="#F5F3EE" stroke-opacity="0.7" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="380" y="430" width="56" height="56" rx="6" fill="#FF2D55" fill-opacity="0.9"/>
+                <rect x="396" y="446" width="24" height="24" rx="3" fill="#0B0B10"/>
+              </g>
+              <rect x="1" y="1" width="478" height="558" rx="27" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-paper text-ink">
+      <div class="mx-auto grid max-w-site gap-10 px-5 py-20 sm:px-8 lg:grid-cols-12 lg:gap-16 lg:py-28">
+        <div class="lg:col-span-5">
+          <p class="font-mono text-xs uppercase tracking-[0.2em] text-neon-deep">About us</p>
+          <h2 class="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">An independent art company in London.</h2>
+        </div>
+        <div class="space-y-5 text-lg leading-relaxed text-ink/80 lg:col-span-7">
+          <p>
+            OSF ART LTD was incorporated on 10 May 2022 and is registered in England and Wales under company number 14096891. Based in London, the company exists to make original contemporary artwork and to share it with the people who care about it most: collectors, galleries and curators.
+          </p>
+          <p>
+            Our focus is the work itself. Some pieces are made as single, one-of-one works; others belong to series and editions that develop an idea over time. Either way, each piece is presented as art, with the idea behind it put first.
+          </p>
+          <p>
+            We keep the tone direct and plain-spoken, the way we think art should be talked about.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="relative">
+      <div class="mx-auto max-w-site px-5 py-20 sm:px-8 lg:py-28">
+        <div class="max-w-2xl">
+          <p class="font-mono text-xs uppercase tracking-[0.2em] text-glow">What we do</p>
+          <h2 class="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">Four ways we work with art.</h2>
+          <p class="mt-5 text-lg leading-relaxed text-paper/75">From the single piece to the longer series, and the people and places that bring art to an audience.</p>
+        </div>
+
+        <ul class="mt-14 grid gap-5 md:grid-cols-2">
+          <li class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 48 48" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <rect x="7" y="7" width="34" height="34" rx="3"/>
+                <path d="M24 14l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="currentColor" fill-opacity="0.25"/>
+              </svg>
+            </div>
+            <h3 class="mt-6 font-display text-2xl font-semibold tracking-tight">Original works</h3>
+            <p class="mt-3 leading-relaxed text-paper/75">One-of-one artworks, each made as a single, unique piece. Every work begins with its own idea and is developed until it can stand on its own, without needing anything else around it to make sense.</p>
+            <p class="mt-5 flex flex-wrap gap-2 font-mono text-xs uppercase tracking-wider text-mute"><span class="tag">One-of-one</span><span class="tag">Contemporary</span></p>
+          </li>
+
+          <li class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 48 48" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <rect x="16" y="6" width="24" height="28" rx="2.5"/>
+                <path d="M12 12v26h22" stroke-linecap="round"/>
+                <path d="M8 18v24h20" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="mt-6 font-display text-2xl font-semibold tracking-tight">Series &amp; editions</h3>
+            <p class="mt-3 leading-relaxed text-paper/75">Some ideas need room to grow. Series and editions let a theme develop over time, piece by piece, while each work keeps its own clear place within a defined set.</p>
+            <p class="mt-5 flex flex-wrap gap-2 font-mono text-xs uppercase tracking-wider text-mute"><span class="tag">Series</span><span class="tag">Editions</span></p>
+          </li>
+
+          <li class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 48 48" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M18 5h12l-3 7h-6z"/>
+                <path d="M21 12l-9 13M27 12l9 13" stroke-opacity="0.45"/>
+                <rect x="10" y="26" width="28" height="17" rx="2"/>
+                <path d="M4 43h40"/>
+              </svg>
+            </div>
+            <h3 class="mt-6 font-display text-2xl font-semibold tracking-tight">Galleries &amp; curators</h3>
+            <p class="mt-3 leading-relaxed text-paper/75">We welcome conversations with galleries, curators and venues interested in presenting work, whether it hangs on a wall or lives on a screen.</p>
+            <p class="mt-5 flex flex-wrap gap-2 font-mono text-xs uppercase tracking-wider text-mute"><span class="tag">Presentations</span><span class="tag">Collaborations</span></p>
+          </li>
+
+          <li class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 48 48" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M6 12a4 4 0 0 1 4-4h20a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H18l-8 6v-6a4 4 0 0 1-4-4z"/>
+                <path d="M38 18h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-2v6l-8-6h-8" stroke-opacity="0.45"/>
+                <path d="M13 16h14M13 21h9"/>
+              </svg>
+            </div>
+            <h3 class="mt-6 font-display text-2xl font-semibold tracking-tight">Collectors</h3>
+            <p class="mt-3 leading-relaxed text-paper/75">Collectors are welcome to write to us about the work and the thinking behind it. We keep the conversation where it belongs: on the art.</p>
+            <p class="mt-5 flex flex-wrap gap-2 font-mono text-xs uppercase tracking-wider text-mute"><span class="tag">Conversations</span><span class="tag">The work</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Key facts -->
+    <section id="facts" class="border-y border-white/10 bg-ink-soft">
+      <div class="mx-auto max-w-site px-5 py-20 sm:px-8 lg:py-28">
+        <div class="grid gap-10 lg:grid-cols-12 lg:gap-16">
+          <div class="lg:col-span-4">
+            <p class="font-mono text-xs uppercase tracking-[0.2em] text-glow">Key facts</p>
+            <h2 class="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">The company at a glance.</h2>
+            <p class="mt-5 leading-relaxed text-paper/75">Plain facts about the company, as registered at Companies House, and the work it focuses on.</p>
+          </div>
+
+          <div class="lg:col-span-8">
+            <dl class="grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2">
+              <div class="bg-ink p-6 sm:p-8">
+                <dt class="font-mono text-xs uppercase tracking-wider text-mute">Incorporated</dt>
+                <dd class="mt-2 font-display text-2xl font-semibold sm:text-3xl">10 May 2022</dd>
+              </div>
+              <div class="bg-ink p-6 sm:p-8">
+                <dt class="font-mono text-xs uppercase tracking-wider text-mute">Based in</dt>
+                <dd class="mt-2 font-display text-2xl font-semibold sm:text-3xl">London, England</dd>
+              </div>
+              <div class="bg-ink p-6 sm:p-8">
+                <dt class="font-mono text-xs uppercase tracking-wider text-mute">Company number</dt>
+                <dd class="mt-2 font-display text-2xl font-semibold sm:text-3xl">14096891</dd>
+              </div>
+              <div class="bg-ink p-6 sm:p-8">
+                <dt class="font-mono text-xs uppercase tracking-wider text-mute">Legal form</dt>
+                <dd class="mt-2 font-display text-2xl font-semibold sm:text-3xl">Private limited company</dd>
+              </div>
+              <div class="bg-ink p-6 sm:col-span-2 sm:p-8">
+                <dt class="font-mono text-xs uppercase tracking-wider text-mute">Our focus</dt>
+                <dd class="mt-3 flex flex-wrap gap-2">
+                  <a href="#services" class="focus-chip">Original works</a>
+                  <a href="#services" class="focus-chip">Series &amp; editions</a>
+                  <a href="#services" class="focus-chip">Galleries &amp; curators</a>
+                  <a href="#services" class="focus-chip">Collectors</a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="relative overflow-hidden">
+      <div class="contact-glow pointer-events-none absolute inset-0" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-site px-5 py-20 sm:px-8 lg:py-28">
+        <div class="mx-auto max-w-3xl rounded-3xl border border-white/10 bg-ink/80 p-8 text-center sm:p-12">
+          <svg class="mx-auto h-12 w-12 text-neon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <rect x="6" y="11" width="36" height="26" rx="3"/>
+            <path d="M7 13l17 13 17-13" stroke-linecap="round"/>
+          </svg>
+          <p class="mt-6 font-mono text-xs uppercase tracking-[0.2em] text-glow">Contact</p>
+          <h2 class="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">Write to us.</h2>
+          <p class="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-paper/80">
+            To get in touch with OSF ART LTD, please write to the company by post at its registered office. The full postal address is listed in the company details at the foot of this page.
+          </p>
+          <p class="mx-auto mt-3 max-w-xl leading-relaxed text-paper/70">
+            Galleries, curators and collectors are all welcome to write.
+          </p>
+          <div class="mt-9 flex justify-center">
+            <a href="#company-details" class="btn-primary">
+              See company details
+              <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 4v12M5 11l5 5 5-5"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="company-details" tabindex="-1" class="border-t border-white/10 bg-ink">
+    <div class="mx-auto max-w-site px-5 py-14 sm:px-8">
+      <div class="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
+        <div class="max-w-md">
+          <a href="#top" class="inline-flex items-center gap-3 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-glow focus-visible:ring-offset-2 focus-visible:ring-offset-ink">
+            <svg class="h-9 w-9 shrink-0" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+              <rect width="40" height="40" rx="10" fill="#14141C"/>
+              <rect x="0.75" y="0.75" width="38.5" height="38.5" rx="9.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+              <circle cx="17" cy="18" r="8.5" fill="none" stroke="#FF2D55" stroke-width="4"/>
+              <rect x="25" y="25" width="7" height="7" rx="1.5" fill="#00E5FF"/>
+            </svg>
+            <span class="font-display text-lg font-semibold tracking-tight">OSF ART <span class="text-mute">LTD</span></span>
+          </a>
+          <p class="mt-4 text-sm leading-relaxed text-paper/70">Original art, made in London.</p>
+        </div>
+
+        <nav aria-label="Footer">
+          <ul class="grid grid-cols-2 gap-x-10 gap-y-3 text-sm">
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#services" class="footer-link">What we do</a></li>
+            <li><a href="#facts" class="footer-link">Key facts</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <address class="not-italic text-sm leading-relaxed text-paper/75">
+          <span class="block font-mono text-xs uppercase tracking-wider text-mute">Registered office</span>
+          <span class="mt-2 block">OSF ART LTD<br>12 Old Bond Street<br>London W1S 4PW<br>United Kingdom</span>
+        </address>
+      </div>
+
+      <div class="mt-12 border-t border-white/10 pt-8">
+        <p class="max-w-3xl text-sm leading-relaxed text-paper/75">
+          OSF ART LTD is a private limited company registered in England and Wales, company number 14096891. Registered office: 12 Old Bond Street, London W1S 4PW.
+        </p>
+        <div class="mt-6 flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
+          <p class="text-paper/60">&copy; <span id="year">2026</span> OSF ART LTD. All rights reserved.</p>
+          <div class="flex flex-wrap gap-3">
+            <button type="button" class="legal-btn" data-open-modal="privacy-modal" aria-haspopup="dialog">Privacy Policy</button>
+            <button type="button" class="legal-btn" data-open-modal="terms-modal" aria-haspopup="dialog">Terms of Service</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Privacy Policy -->
+    <dialog id="privacy-modal" class="legal-dialog" aria-labelledby="privacy-title">
+      <div class="legal-head">
+        <h2 id="privacy-title" class="font-display text-2xl font-bold tracking-tight">Privacy Policy</h2>
+        <button type="button" class="dialog-close" data-close-modal aria-label="Close Privacy Policy">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="legal-body">
+        <p class="text-sm text-mute-dark">Last updated: 23 November 2026</p>
+
+        <h3>Who runs this website</h3>
+        <p>This website, osfartltd.shop, is run by OSF ART LTD, a private limited company registered in England and Wales (company number 14096891). Registered office: 12 Old Bond Street, London W1S 4PW. OSF ART LTD is the controller for any personal data processed through this site. You can contact us in writing by post at the registered office.</p>
+
+        <h3>What we collect</h3>
+        <p>We don't collect personal data through this website ourselves. There is no contact form, no account, no newsletter sign-up and no payment page. We don't use cookies, analytics, advertising or any other tracking tools.</p>
+
+        <h3>Hosting</h3>
+        <p>The site is hosted on GitHub Pages, a service provided by GitHub, Inc. To deliver pages and keep the service secure, GitHub processes technical data about your visit, such as your IP address and browser details, and may log it. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a>.</p>
+
+        <h3>External resources</h3>
+        <p>When a page loads, your browser also fetches files from these third parties, which receive your IP address and standard browser information as part of that request:</p>
+        <ul>
+          <li><strong>Tailwind CSS</strong> (cdn.tailwindcss.com), the styling framework used by the site.</li>
+          <li><strong>Google Fonts</strong> (fonts.googleapis.com and fonts.gstatic.com), provided by Google, for the typefaces. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</li>
+        </ul>
+        <p>Some of these providers are based in the United States, so this technical data may be processed outside the UK.</p>
+
+        <h3>Why this happens</h3>
+        <p>This limited technical processing is needed to show you the website. Our lawful basis is our legitimate interest in running a working, secure website (Article 6(1)(f) UK GDPR).</p>
+
+        <h3>Your rights</h3>
+        <p>Under the UK GDPR and the Data Protection Act 2018 you have the right to ask for access to your personal data, to have it corrected or erased, to restrict or object to its use, and to data portability. Because we don't hold personal data from this website ourselves, requests about server logs or font requests are usually best sent to the provider concerned, but you are always welcome to write to us at our registered office.</p>
+        <p>If you are unhappy with how your data is handled, you can complain to the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk/make-a-complaint/" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
+
+        <h3>Changes</h3>
+        <p>We may update this policy from time to time. The date at the top shows when it was last changed.</p>
+      </div>
+    </dialog>
+
+    <!-- Terms of Service -->
+    <dialog id="terms-modal" class="legal-dialog" aria-labelledby="terms-title">
+      <div class="legal-head">
+        <h2 id="terms-title" class="font-display text-2xl font-bold tracking-tight">Terms of Service</h2>
+        <button type="button" class="dialog-close" data-close-modal aria-label="Close Terms of Service">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="legal-body">
+        <p class="text-sm text-mute-dark">Last updated: 23 November 2026</p>
+
+        <h3>About these terms</h3>
+        <p>These terms apply to your use of osfartltd.shop, the website of OSF ART LTD, a private limited company registered in England and Wales (company number 14096891). By using the site, you agree to them.</p>
+
+        <h3>Information only</h3>
+        <p>This website gives general information about OSF ART LTD. Nothing is sold through it, and nothing on it is an offer, a contract or advice of any kind.</p>
+
+        <h3>Content</h3>
+        <p>Unless stated otherwise, the text, design and graphics on this site belong to OSF ART LTD. You may view and share pages for personal, non-commercial purposes. Please don't copy or reuse the content commercially without our written permission.</p>
+
+        <h3>Accuracy and availability</h3>
+        <p>We aim to keep the information on this site accurate and up to date, but we can't guarantee it. The site may change, or be unavailable from time to time, without notice.</p>
+
+        <h3>Liability</h3>
+        <p>To the fullest extent permitted by law, OSF ART LTD is not liable for any loss or damage arising from your use of this website or your reliance on its content. Nothing in these terms limits or excludes liability that cannot be limited or excluded by law, such as liability for death or personal injury caused by negligence, or for fraud.</p>
+
+        <h3>Links to other websites</h3>
+        <p>Where this site links to other websites, we are not responsible for their content or how they handle your data.</p>
+
+        <h3>Governing law</h3>
+        <p>These terms are governed by the law of England and Wales, and the courts of England and Wales have jurisdiction over any dispute. If you live elsewhere in the UK, you may also be able to bring proceedings in your local courts.</p>
+
+        <h3>Contact</h3>
+        <p>Questions about these terms can be sent by post to OSF ART LTD at its registered office: 12 Old Bond Street, London W1S 4PW.</p>
+      </div>
+    </dialog>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

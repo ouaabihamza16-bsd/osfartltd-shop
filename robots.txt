@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osfartltd.shop/sitemap.xml
